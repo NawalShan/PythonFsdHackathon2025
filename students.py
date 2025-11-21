@@ -118,7 +118,7 @@ def delete_student(student_id: int):
     conn.commit()
     conn.close()
 
-    return {"detail": "Student deleted successfully"}
+    return {"detail": "Student deleted successfully....."}
    
 
 
